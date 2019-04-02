@@ -14,6 +14,7 @@ export CXX=g++-6 CXXFLAGS="-w -O2 -g1"
 # make format
 
 # build
+make -j $(nproc) check
 make -j $(nproc)
 
 # test
